@@ -19,6 +19,8 @@ function App() {
 		<div className="App">
 			<Navigation cart={cart} />
 
+			<h1> I DEED IT </h1>
+
 			{/* Routes */}
 			<Route exact path="/">
 				<Products products={products} addItem={addItem} />
