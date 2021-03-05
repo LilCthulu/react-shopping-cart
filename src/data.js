@@ -1,6 +1,6 @@
 export default [{
         id: 1,
-        title: 'The Art Of Wario',
+        title: 'The Art Of War',
         price: 10.11,
         image: 'https://images-na.ssl-images-amazon.com/images/I/41FBMkY3cgL._SX331_BO1,204,203,200_.jpg'
     },
