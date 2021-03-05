@@ -12,12 +12,14 @@ function App() {
 	const [cart, setCart] = useState([]);
 
 	const addItem = item => {
-		// add the given item to the cart
+		setCart([...cart, item])
 	};
 
 	return (
 		<div className="App">
 			<Navigation cart={cart} />
+
+			<h1> I DEED IT </h1>
 
 			{/* Routes */}
 			<Route exact path="/">
